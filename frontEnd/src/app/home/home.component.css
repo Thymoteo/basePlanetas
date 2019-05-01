@@ -1,0 +1,40 @@
+
+
+.menu {
+    border:  2px solid;
+    /* background: #353535; */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    border-radius: 20px
+
+}
+
+.jumbotron {
+    /* background-color: #0E0B16;  */
+    background-color: #110521;
+    color: #E7DFDD;
+    border-radius: 15px
+}
+
+.btn-primary {
+    /* background-color: #4717F6;
+    border-color: #4717F6 */
+     background-color: #4D0AA1;
+    border-color: #4D0AA1
+}
+
+body {
+    background: #040008
+}
+
+.card {
+    background-color: #110521;    
+    color: #E7DFDD;
+    border-radius: 15px
+}
+
+.card-img-top {
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px
+}
