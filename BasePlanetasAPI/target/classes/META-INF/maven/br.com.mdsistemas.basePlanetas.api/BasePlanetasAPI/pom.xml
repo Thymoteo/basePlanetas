@@ -39,11 +39,19 @@
 	    	<groupId>org.springframework.boot</groupId>
 	    	<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
+	  <dependency>
+    		<groupId>org.flywaydb</groupId>
+    		<artifactId>flyway-core</artifactId>
+    		<version>4.0</version>
+	  </dependency>
 		   
   </dependencies>
 
    <properties>
        <java.version>1.8</java.version>
+       <url.db>jdbc:mysql://192.168.0.43:3306/bd_exemplo</url.db>
+       <user.db>root</user.db>
+       <password.db>root</password.db>	
    </properties>
 
    <build>
@@ -52,6 +60,17 @@
                <groupId>org.springframework.boot</groupId>
                <artifactId>spring-boot-maven-plugin</artifactId>
            </plugin>
+	       <plugin>
+    		  <groupId>org.flywaydb</groupId>
+    		  <artifactId>flyway-maven-plugin</artifactId>
+    	          <version>4.0</version>
+    		 <configuration>
+        	   <url>${url.db}</url>
+       		   <user>${user.db}</user>
+        	   <password>${password.db}</password>
+        	   <baselineOnMigrate>true</baselineOnMigrate>
+    		</configuration>
+             </plugin>     
        </plugins>
    </build>
   
