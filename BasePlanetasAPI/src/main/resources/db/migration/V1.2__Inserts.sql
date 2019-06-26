@@ -1,3 +1,5 @@
+use planetas_db;
+
 INSERT INTO classe_planeta
 	VALUES ('A','Gigante Gasoso'),
 		   ('B','Sulfurico'),
