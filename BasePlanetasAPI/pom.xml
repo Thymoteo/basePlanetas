@@ -68,7 +68,6 @@
         	   <url>${url.db}</url>
        		   <user>${user.db}</user>
         	   <password>${password.db}</password>
-        	   <baselineOnMigrate>true</baselineOnMigrate>
     		</configuration>
              </plugin>     
        </plugins>
