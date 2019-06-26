@@ -1,5 +1,3 @@
-use planetas_db;
-
 create table classe_Planeta (
 	id_classe char not null,
     descricao varchar(100) not null,
