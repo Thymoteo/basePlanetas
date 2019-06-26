@@ -49,7 +49,7 @@
 
    <properties>
        <java.version>1.8</java.version>
-       <url.db>jdbc:mysql://192.168.0.43:3306/bd_exemplo</url.db>
+       <url.db>jdbc:mysql://192.168.0.43:3306/planetas_db</url.db>
        <user.db>root</user.db>
        <password.db>root</password.db>	
    </properties>
